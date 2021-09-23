@@ -1,2 +1,2 @@
 #!/bin/bash
-chown -R 755 0x01shell_permissions
+chown -R a+x 0x01shell_permissions
