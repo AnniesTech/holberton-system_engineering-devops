@@ -1,2 +1,2 @@
 #!/bin/bash
-sort | grep -A3 root /etc/password
+sort | grep -A 3 root /etc/password
