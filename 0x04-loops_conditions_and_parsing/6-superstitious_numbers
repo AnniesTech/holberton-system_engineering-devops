@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+#This script uses the case statement to print with conditions
+while ((i<20))
+do
+	echo "$((i+1))"
+	case $i in
+		3)	
+			echo "bad luck from China"
+		;;
+		8)
+			echo "bad luck from Japan"
+		;;
+		16)
+			echo "bad luck from Italy"
+		;;
+	esac
+	((i++))
+done
