@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#This script prints 10 times the string in echo
+while ((i < 10));
+do
+    echo "Best School"
+    ((i++))
+done
