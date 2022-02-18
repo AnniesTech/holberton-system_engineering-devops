@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-#This script prints 10 times the string in echo
+#This script prints 10 times the string in echo using while
 while ((i < 10));
 do
     echo "Best School"
