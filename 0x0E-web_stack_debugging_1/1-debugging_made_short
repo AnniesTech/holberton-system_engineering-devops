@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Using what you did for task #0, make your fix short and sweet.
-sed -i "s/8080/80/g" /etc/nginx/sites-enabled/default
+sed -i "s/8080/80/" /etc/nginx/sites-enabled/default
 service nginx restart
 rm /var/run/nginx.pid
 # Removed the path to prevent nginx from running again.
