@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#Starts your web servers as nginx user
+sudo chmod 644 /etc/nginx/nginx.conf
+sudo sed -i "s/80/8080/" /etc/nginx/sites-available/default
+sudo pkill apache2
+sudo -u nginx service nginx restart
+
